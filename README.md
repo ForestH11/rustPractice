@@ -1,28 +1,23 @@
 # Overview
 
-{Provide a description the software that you wrote to demonstrate the Rust language.} I wrote a basic sampler for the rust language that goes over the syntax of how rust basically works
+I wrote a basic sampler for the rust language that goes over the syntax of how rust basically works with the foundational elements of the language.
 
-{Describe your purpose for writing this software.}
+I wrote this software with the purpose of gaining an understanding of how the Rust language works. It is meant to be a helpful reference for me to look back on when I write more complex programs.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/Aq59uUTCndo)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+I wrote these files in VS Code
+I created this directory by using Cargo, which comes with Rust
 
-{Describe the programming language that you used and any libraries.}
+I used Rust 1.60.0
 
 # Useful Websites
-
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [***The Book***](https://doc.rust-lang.org/book/index.html)
+* [The Documentation](https://doc.rust-lang.org/std/index.html)
+* [Rust SubReddit](https://www.reddit.com/r/rust/)
 
 # Future Work
-
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Extend the documentation.
+* Connect the various .rs files in src to main.rs and run them all when using cargo run
