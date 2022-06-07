@@ -10,11 +10,16 @@ fn main() {
     println!("x is {} and phrase is {}, now let's do something",x,phrase);
     
     //this is an expression
-    if x + 4 > 8 {
-        phrase = "Eat Bannana";
+    phrase = if x + 4 > 8 {
+        //we could assign phrase = each of these strings, but since if
+        //statements are expressions, we can just set phrase = to the 
+        //if statement.
+
+        "Eat Bannana"
     } else {
-        phrase = "Behold this scene--";
-    }
+        "Behold this scene--"
+    };
+    
     //and this is a statement
     println!("Your phrase is: {}", phrase);
 }

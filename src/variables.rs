@@ -63,10 +63,10 @@ fn main() {
     let p: [i32; 5] = [10, 11, 12, 13, 14]; //array with item type i32, length of 5 items.
 
     //you can create an array of the same item by using the following syntax
-    let q: [2; 5]; //this is the same as saying let q = [2, 2, 2, 2, 2];
+    let q = [2; 5]; //this is the same as saying let q = [2, 2, 2, 2, 2];
 
     //like many other languages, the array is accesed with bracket notation
-    let r = p[2] //the item in index 2 would be 12, so r = 12
+    let r = p[2]; //the item in index 2 would be 12, so r = 12
 
 
 
